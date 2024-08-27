@@ -1,0 +1,6 @@
+langchain
+langchain-community 
+langchainhub 
+langchain-chroma 
+langchain-groq
+langchain-huggingface
