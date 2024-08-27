@@ -19,7 +19,7 @@ embed_model = HuggingFaceEmbeddings(model_name="mixedbread-ai/mxbai-embed-large-
 # Load the vector store from a local directory
 vectorstore = Chroma(
     "Starwars_Vectordb",
-    embedding=embed_model,
+    embedding_function=embed_model,
 )
 
 # Convert the vector store to a retriever
