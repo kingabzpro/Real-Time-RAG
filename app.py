@@ -14,7 +14,8 @@ groq_api_key = os.getenv("Groq_API_Key")
 llm = ChatGroq(model="llama-3.1-70b-versatile", api_key=groq_api_key)
 
 # Initialize the embedding model
-embed_model = HuggingFaceEmbeddings(model_name="mixedbread-ai/mxbai-embed-large-v1")
+embed_model = HuggingFaceEmbeddings(model_name="mixedbread-ai/mxbai-embed-large-v1",
+                                    model_kwargs = {'device': 'cpu'})
 
 # Load the vector store from a local directory
 vectorstore = Chroma(
