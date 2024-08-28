@@ -1,6 +1,6 @@
 ---
 title: Real Time RAG Application
-emoji: 📉
+emoji: 🤺⌚
 colorFrom: green
 colorTo: yellow
 sdk: gradio
