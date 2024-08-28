@@ -1,0 +1,97 @@
+id,name,species,gender,height,weight,hair_color,eye_color,skin_color,year_born,homeworld,year_died,description
+1,Luke Skywalker,Human,Male,1.72,77.0,Blond,Blue,Light,19,Tatooine,34,The main protagonist of the original trilogy.
+2,Leia Organa,Human,Female,1.5,49.0,Brown,Brown,Light,19,Alderaan,35,A leader in the Rebel Alliance and twin sister of Luke Skywalker.
+3,Darth Vader,Human,Male,2.02,136.0,None,Yellow,Pale,41,Tatooine,4,The Sith Lord formerly known as Anakin Skywalker.
+4,Yoda,Yoda's species,Male,0.66,17.0,White,Brown,Green,896,Unknown,4,A wise and powerful Jedi Master.
+5,Han Solo,Human,Male,1.8,80.0,Brown,Hazel,Light,29,Corellia,34,A smuggler turned hero in the Rebel Alliance.
+6,Chewbacca,Wookiee,Male,2.28,112.0,Brown,Blue,Brown,200,Kashyyyk,,A loyal Wookiee and co-pilot of the Millennium Falcon.
+7,Obi-Wan Kenobi,Human,Male,1.82,81.0,White,Blue-gray,Light,57,Stewjon,0,A Jedi Master who mentored Anakin and Luke Skywalker.
+8,Emperor Palpatine,Human,Male,1.73,75.0,None,Yellow,Pale,82,Naboo,35,The Sith Lord who became Emperor of the galaxy.
+9,Anakin Skywalker,Human,Male,1.88,84.0,Blond,Blue,Light,41,Tatooine,4,A Jedi Knight who fell to the dark side and became Darth Vader.
+10,Padmé Amidala,Human,Female,1.65,45.0,Brown,Brown,Light,46,Naboo,19,The queen-turned-senator of Naboo and wife of Anakin Skywalker.
+11,Qui-Gon Jinn,Human,Male,1.93,89.0,Brown,Blue,Light,92,Coruscant,32,A Jedi Master who discovered Anakin Skywalker.
+12,Mace Windu,Human,Male,1.88,84.0,None,Brown,Dark,72,Haruun Kal,19,A Jedi Master and member of the Jedi High Council.
+13,Jar Jar Binks,Gungan,Male,1.96,66.0,None,Orange,Orange,52,Naboo,,A clumsy Gungan who became a representative in the Galactic Senate.
+14,Count Dooku,Human,Male,1.93,80.0,White,Brown,Light,102,Serenno,19,"A former Jedi who became Darth Tyranus, a Sith Lord."
+15,Rey,Human,Female,1.7,54.0,Brown,Hazel,Light,15,Jakku,,The main protagonist of the sequel trilogy.
+16,Finn,Human,Male,1.78,73.0,Black,Brown,Dark,11,Unknown,,A former stormtrooper who joins the Resistance.
+17,Poe Dameron,Human,Male,1.76,79.0,Brown,Brown,Light,2,Yavin 4,,A skilled pilot and commander in the Resistance.
+18,Kylo Ren,Human,Male,1.89,89.0,Black,Brown,Light,5,Chandrila,35,A dark side user formerly known as Ben Solo.
+19,BB-8,Droid,None,,,None,None,White,,None,,A spherical astromech droid.
+20,C-3PO,Droid,None,1.71,,None,None,Gold,112,Tatooine,,A protocol droid fluent in over six million forms of communication.
+21,R2-D2,Droid,None,0.96,,None,None,White/Blue,33,Naboo,,An astromech droid known for his bravery and resourcefulness.
+22,Lando Calrissian,Human,Male,1.77,79.0,Black,Brown,Dark,31,Socorro,,A charming gambler and ally of the Rebel Alliance.
+23,Boba Fett,Human,Male,1.83,78.0,Black,Brown,Light,32,Kamino,,A notorious bounty hunter and clone of Jango Fett.
+24,Jango Fett,Human,Male,1.83,79.0,Black,Brown,Light,66,Concord Dawn,22,A skilled bounty hunter and template for the clone army.
+25,General Hux,Human,Male,1.85,75.0,Red,Blue,Light,0,Arkanis,35,A general in the First Order.
+26,Rose Tico,Human,Female,1.68,57.0,Black,Brown,Light,11,Hays Minor,,A mechanic in the Resistance.
+27,Supreme Leader Snoke,Unknown,Male,2.18,100.0,None,Blue,Pale,50,Unknown,34,The Supreme Leader of the First Order.
+28,Maz Kanata,Unknown,Female,1.24,31.0,None,Brown,Orange,973,Takodana,,A wise and ancient being who runs a tavern on Takodana.
+29,Aayla Secura,Twi'lek,Female,1.78,55.0,Blue,Hazel,Blue,48,Ryloth,19,A Jedi Knight during the Clone Wars.
+30,Admiral Ackbar,Mon Calamari,Male,1.8,72.0,None,Orange,Red,52,Mon Cala,35,A respected admiral in the Rebel Alliance.
+31,Admiral Piett,Human,Male,1.8,75.0,Brown,Blue,Light,59,Axxila,4,An Imperial officer serving under Darth Vader.
+32,Bail Organa,Human,Male,1.91,86.0,Black,Brown,Light,67,Alderaan,0,A senator and adoptive father of Leia Organa.
+33,Barriss Offee,Mirialan,Female,1.66,50.0,Black,Blue,Green,40,Mirial,19,A Jedi Padawan during the Clone Wars.
+34,Biggs Darklighter,Human,Male,1.79,79.0,Black,Brown,Light,24,Tatooine,0,A Rebel pilot and friend of Luke Skywalker.
+35,Bib Fortuna,Twi'lek,Male,1.93,65.0,None,Red,Pale,60,Ryloth,35,A majordomo for Jabba the Hutt.
+36,Bossk,Trandoshan,Male,1.9,113.0,None,Red,Green,53,Trandosha,,A feared bounty hunter.
+37,Captain Phasma,Human,Female,2.0,75.0,Blonde,Blue,Light,15,Parnassos,35,A high-ranking officer in the First Order.
+38,Chirrut Îmwe,Human,Male,1.75,70.0,Black,Brown,Light,52,Jedha,0,A blind warrior monk and follower of the Force.
+39,Dengar,Human,Male,1.83,80.0,Brown,Brown,Light,32,Corellia,,A bounty hunter with a grudge against Han Solo.
+40,Greedo,Rodian,Male,1.73,70.0,None,Black,Green,44,Rodia,0,A bounty hunter killed by Han Solo.
+41,Hera Syndulla,Twi'lek,Female,1.78,55.0,Green,Blue,Green,29,Ryloth,,A skilled pilot and leader of the Ghost crew.
+42,Jabba the Hutt,Hutt,Male,3.9,1358.0,None,Orange,Green,600,Nal Hutta,4,A notorious crime lord.
+43,Kanan Jarrus,Human,Male,1.91,86.0,Brown,Blue,Light,32,Coruscant,2,A Jedi Knight and member of the Ghost crew.
+44,Kit Fisto,Nautolan,Male,1.96,87.0,None,Black,Green,48,Glee Anselm,19,A Jedi Master known for his underwater combat skills.
+45,Lobot,Human,Male,1.75,75.0,None,Blue,Light,47,Bespin,,A cyborg aide to Lando Calrissian.
+46,Mon Mothma,Human,Female,1.7,55.0,Red,Blue,Light,48,Chandrila,,A leader in the Rebel Alliance.
+47,Nien Nunb,Sullustan,Male,1.6,70.0,None,Black,Light,43,Sullust,,A pilot who co-piloted the Millennium Falcon during the Battle of Endor.
+48,Plo Koon,Kel Dor,Male,1.88,80.0,None,Black,Orange,44,Dorin,19,A Jedi Master known for his unique mask.
+49,Saw Gerrera,Human,Male,1.78,75.0,Black,Brown,Dark,48,Onderon,0,A militant leader in the Rebel Alliance.
+50,Sebulba,Dug,Male,1.12,40.0,None,Red,Brown,32,Malastare,,A pod racer with a fierce reputation.
+51,Shaak Ti,Togruta,Female,1.87,68.0,None,Black,Red,43,Shili,,A Jedi Master and member of the Jedi High Council.
+52,Shmi Skywalker,Human,Female,1.65,55.0,Brown,Brown,Light,72,Tatooine,22,The mother of Anakin Skywalker.
+53,Wedge Antilles,Human,Male,1.79,80.0,Brown,Brown,Light,21,Corellia,,A skilled Rebel pilot.
+54,Wicket W. Warrick,Ewok,Male,1.0,20.0,Brown,Brown,Brown,23,Endor,,An Ewok who helped the Rebel Alliance on Endor.
+55,Zam Wesell,Clawdite,Female,1.78,60.0,Brown,Yellow,Green,32,Zolan,22,A shape-shifting bounty hunter.
+56,Ahsoka Tano,Togruta,Female,1.88,55.0,None,Blue,Orange,36,Shili,,A former Jedi Padawan of Anakin Skywalker.
+57,Asajj Ventress,Dathomirian,Female,1.7,55.0,None,Blue,Pale,57,Dathomir,19,A former Sith apprentice turned bounty hunter.
+58,Cad Bane,Duros,Male,1.85,75.0,None,Red,Blue,62,Duro,,A feared bounty hunter.
+59,Captain Rex,Human,Male,1.83,80.0,Blond,Blue,Light,32,Kamino,,A clone trooper captain who served under Anakin Skywalker.
+60,Savage Opress,Dathomirian,Male,2.18,100.0,None,Yellow,Pale,49,Dathomir,19,The brother of Darth Maul and a powerful Sith apprentice.
+61,Hondo Ohnaka,Weequay,Male,1.75,70.0,Black,Brown,Brown,45,Sriluur,,A pirate and smuggler.
+62,Pong Krell,Besalisk,Male,2.5,300.0,None,Yellow,Green,52,Ojom,19,A Jedi Master who fell to the dark side.
+63,Mother Talzin,Dathomirian,Female,1.7,55.0,Black,Green,Pale,100,Dathomir,19,A powerful witch and leader of the Nightsisters.
+64,Ezra Bridger,Human,Male,1.75,70.0,Blue,Black,Light,18,Lothal,,A Jedi Padawan and member of the Ghost crew.
+65,Sabine Wren,Human,Female,1.65,50.0,Varied,Brown,Light,21,Mandalore,,A Mandalorian artist and warrior.
+66,Kallus,Human,Male,1.88,85.0,Blond,Blue,Light,40,Coruscant,,An Imperial agent who defected to the Rebel Alliance.
+67,Grand Admiral Thrawn,Chiss,Male,1.95,85.0,Blue-Black,Red,Blue,50,Csilla,,A brilliant tactician and leader in the Imperial Navy.
+68,Jyn Erso,Human,Female,1.7,60.0,Brown,Green,Light,22,Vallt,0,The protagonist of Rogue One and a member of the Rebel Alliance.
+69,Cassian Andor,Human,Male,1.84,75.0,Brown,Brown,Light,26,Fest,0,A Rebel intelligence officer.
+70,Orson Krennic,Human,Male,1.85,80.0,White,Blue,Light,51,Lexrul,0,The director of the Empire's Advanced Weapons Research division.
+71,Bodhi Rook,Human,Male,1.8,75.0,Black,Brown,Dark,25,Jedha,0,A former Imperial pilot who defected to the Rebel Alliance.
+72,Chirrut Îmwe,Human,Male,1.75,70.0,Black,Brown,Light,52,Jedha,0,A blind warrior monk and follower of the Force.
+73,Baze Malbus,Human,Male,1.85,95.0,Black,Brown,Light,52,Jedha,0,A former Guardian of the Whills and companion to Chirrut Îmwe.
+74,Galen Erso,Human,Male,1.83,75.0,Brown,Brown,Light,54,Grange,0,A scientist and father of Jyn Erso.
+75,Saw Gerrera,Human,Male,1.78,75.0,Black,Brown,Dark,48,Onderon,0,A militant leader in the Rebel Alliance.
+76,Hera Syndulla,Twi'lek,Female,1.78,55.0,Green,Blue,Green,29,Ryloth,,A skilled pilot and leader of the Ghost crew.
+77,Kanan Jarrus,Human,Male,1.91,86.0,Brown,Blue,Light,32,Coruscant,2,A Jedi Knight and member of the Ghost crew.
+78,Ezra Bridger,Human,Male,1.75,70.0,Blue,Black,Light,18,Lothal,,A Jedi Padawan and member of the Ghost crew.
+79,Sabine Wren,Human,Female,1.65,50.0,Varied,Brown,Light,21,Mandalore,,A Mandalorian artist and warrior.
+80,Grand Admiral Thrawn,Chiss,Male,1.95,85.0,Blue-Black,Red,Blue,50,Csilla,,A brilliant tactician and leader in the Imperial Navy.
+81,Jyn Erso,Human,Female,1.7,60.0,Brown,Green,Light,22,Vallt,0,The protagonist of Rogue One and a member of the Rebel Alliance.
+82,Cassian Andor,Human,Male,1.84,75.0,Brown,Brown,Light,26,Fest,0,A Rebel intelligence officer.
+83,Orson Krennic,Human,Male,1.85,80.0,White,Blue,Light,51,Lexrul,0,The director of the Empire's Advanced Weapons Research division.
+84,Bodhi Rook,Human,Male,1.8,75.0,Black,Brown,Dark,25,Jedha,0,A former Imperial pilot who defected to the Rebel Alliance.
+85,Chirrut Îmwe,Human,Male,1.75,70.0,Black,Brown,Light,52,Jedha,0,A blind warrior monk and follower of the Force.
+86,Baze Malbus,Human,Male,1.85,95.0,Black,Brown,Light,52,Jedha,0,A former Guardian of the Whills and companion to Chirrut Îmwe.
+87,Galen Erso,Human,Male,1.83,75.0,Brown,Brown,Light,54,Grange,0,A scientist and father of Jyn Erso.
+88,Saw Gerrera,Human,Male,1.78,75.0,Black,Brown,Dark,48,Onderon,0,A militant leader in the Rebel Alliance.
+89,Admiral Raddus,Mon Calamari,Male,1.8,72.0,None,Orange,Blue,50,Mon Cala,0,A respected admiral in the Rebel Alliance.
+90,Dryden Vos,Human,Male,1.85,80.0,Blond,Blue,Light,35,Corellia,10,A crime lord in the Crimson Dawn syndicate.
+91,Qi'ra,Human,Female,1.7,50.0,Brown,Brown,Light,21,Corellia,,A member of the Crimson Dawn syndicate.
+92,Enfys Nest,Human,Female,1.68,55.0,Red,Brown,Light,19,Unknown,,A rebel and leader of the Cloud-Riders.
+93,L3-37,Droid,None,1.8,,None,Green,Gray,,Unknown,10,A self-built piloting droid.
+94,Beckett,Human,Male,1.85,80.0,Brown,Blue,Light,50,Glee Anselm,10,A criminal and mentor to Han Solo.
+95,Val,Human,Female,1.75,55.0,Black,Brown,Dark,30,Unknown,10,A member of Beckett's crew.
+96,Rio Durant,Ardennian,Male,1.4,40.0,None,Black,Blue,40,Ardennia,10,A four-armed pilot in Beckett's crew.

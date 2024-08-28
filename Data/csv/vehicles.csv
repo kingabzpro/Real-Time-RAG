@@ -1,0 +1,51 @@
+id,name,model,manufacturer,cost_in_credits,length,max_atmosphering_speed,crew,passengers,cargo_capacity,consumables,vehicle_class,pilots,films
+1,Snowspeeder,t-47 airspeeder,Incom corporation,0.0,4.5,650.0,2,0,10.0,none,airspeeder,"Luke Skywalker, Wedge Antilles",The Empire Strikes Back
+2,TIE Fighter,Twin Ion Engine/Ln Starfighter,Sienar Fleet Systems,75000.0,6.3,1200.0,1,0,65.0,2 days,Starfighter,None,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+3,Sand Crawler,Digger Crawler,Corellia Mining Corporation,150000.0,36.8,30.0,46,30,50000.0,2 months,Wheeled,None,A New Hope
+4,X-34 Landspeeder,X-34 Landspeeder,SoroSuub Corporation,10550.0,3.4,250.0,1,1,5.0,None,Landspeeder,Luke Skywalker,A New Hope
+5,TIE Bomber,TIE/sa Bomber,Sienar Fleet Systems,86500.0,7.8,850.0,1,0,15.0,2 days,Bomber,None,The Empire Strikes Back
+6,AT-AT,All Terrain Armored Transport,Kuat Drive Yards,226500.0,20.6,60.0,5,40,1000.0,None,Walker,None,"The Empire Strikes Back, Return of the Jedi"
+7,AT-ST,All Terrain Scout Transport,Kuat Drive Yards,89100.0,8.6,90.0,2,0,200.0,None,Walker,None,"The Empire Strikes Back, Return of the Jedi"
+8,Sith Speeder,FC-20 Speeder Bike,Razalon,4000.0,1.5,180.0,1,0,5.0,None,Speeder,Darth Maul,The Phantom Menace
+9,Speeder Bike,74-Z Speeder Bike,Aratech Repulsor Company,8000.0,3.0,360.0,1,1,4.0,2 days,Speeder,Scout Trooper,Return of the Jedi
+10,Imperial Speeder Bike,74-Z Speeder Bike,Aratech Repulsor Company,8000.0,3.0,500.0,1,1,5.0,2 days,Speeder,Scout Trooper,Return of the Jedi
+11,Cloud Car,Storm IV Twin-Pod,Bespin Motors,75000.0,7.0,1500.0,2,0,10.0,None,Air speeder,None,The Empire Strikes Back
+12,Sith Infiltrator,Sith Infiltrator,Sienar Fleet Systems,0.0,26.5,1180.0,1,6,150000.0,1 month,Starfighter,Darth Maul,The Phantom Menace
+13,B-Wing,B-Wing starfighter,Slayn & Korpil,220000.0,16.9,950.0,1,0,45.0,1 week,Starfighter,None,Return of the Jedi
+14,Slave 1,Firespray-31-class patrol and attack craft,Kuat Systems Engineering,150000.0,21.5,1000.0,1,6,80000.0,1 month,Patrol craft,Boba Fett,"The Empire Strikes Back, Attack of the Clones"
+15,Solar Sailer,Punworcca 116-class interstellar sloop,Huppla Pasa Tisc Shipwrights Collective,285000.0,15.2,1600.0,3,11,180000.0,1 month,Sloop,Count Dooku,Attack of the Clones
+16,Geonosian Starfighter,Nantex-class territorial defense starfighter,Huppla Pasa Tisc Shipwrights Collective,125000.0,9.8,1200.0,1,0,30.0,2 days,Starfighter,None,Attack of the Clones
+17,Hound's Tooth,YT-2000 light freighter,Corellian Engineering Corporation,150000.0,20.0,850.0,6,10,500000.0,2 months,Light freighter,Bossk,The Clone Wars
+18,Scimitar,Sith Infiltrator,Republic Sienar Systems,200000.0,26.5,1180.0,1,6,150000.0,1 month,Starfighter,Darth Maul,The Phantom Menace
+19,Tie Interceptor,TIE/in interceptor,Sienar Fleet Systems,75000.0,9.6,1250.0,1,0,75.0,2 days,Starfighter,None,Return of the Jedi
+20,Naboo Royal Cruiser,J-type diplomatic barge,Theed Palace Space Vessel Engineering Corps,200000.0,115.0,920.0,8,50,500000.0,2 months,Yacht,Queen Amidala,Attack of the Clones
+21,X-34 Landspeeder,X-34,SoroSuub Corporation,10550.0,3.4,250.0,1,1,5.0,2 days,Landspeeder,Luke Skywalker,A New Hope
+22,Snowspeeder,T-47 airspeeder,Incom Corporation,0.0,4.5,650.0,2,0,10.0,None,Airspeeder,Luke Skywalker,The Empire Strikes Back
+23,Cloud Car,Storm IV Twin-Pod,Bespin Motors,75000.0,7.0,1500.0,2,0,10.0,None,Air speeder,None,The Empire Strikes Back
+24,TIE Fighter,Twin Ion Engine/Ln Starfighter,Sienar Fleet Systems,75000.0,6.3,1200.0,1,0,65.0,2 days,Starfighter,None,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+25,Sith Speeder,FC-20 speeder bike,Razalon,4000.0,1.5,180.0,1,0,5.0,None,Speeder,Darth Maul,The Phantom Menace
+26,Sith Infiltrator,Sith Infiltrator,Sienar Fleet Systems,0.0,26.5,1180.0,1,6,150000.0,1 month,Starfighter,Darth Maul,The Phantom Menace
+27,Tie Bomber,TIE/sa Bomber,Sienar Fleet Systems,86500.0,7.8,850.0,1,0,15.0,2 days,Bomber,None,The Empire Strikes Back
+28,AT-AT,All Terrain Armored Transport,Kuat Drive Yards,226500.0,20.6,60.0,5,40,1000.0,None,Walker,None,"The Empire Strikes Back, Return of the Jedi"
+29,AT-ST,All Terrain Scout Transport,Kuat Drive Yards,89100.0,8.6,90.0,2,0,200.0,None,Walker,None,"The Empire Strikes Back, Return of the Jedi"
+30,Solar Sailer,Punworcca 116-class interstellar sloop,Huppla Pasa Tisc Shipwrights Collective,285000.0,15.2,1600.0,3,11,180000.0,1 month,Sloop,Count Dooku,Attack of the Clones
+31,Geonosian Starfighter,Nantex-class territorial defense starfighter,Huppla Pasa Tisc Shipwrights Collective,125000.0,9.8,1200.0,1,0,30.0,2 days,Starfighter,None,Attack of the Clones
+32,Hound's Tooth,YT-2000 light freighter,Corellian Engineering Corporation,150000.0,20.0,850.0,6,10,500000.0,2 months,Light freighter,Bossk,The Clone Wars
+33,Slave 1,Firespray-31-class patrol and attack craft,Kuat Systems Engineering,150000.0,21.5,1000.0,1,6,80000.0,1 month,Patrol craft,Boba Fett,"The Empire Strikes Back, Attack of the Clones"
+34,Scimitar,Sith Infiltrator,Republic Sienar Systems,200000.0,26.5,1180.0,1,6,150000.0,1 month,Starfighter,Darth Maul,The Phantom Menace
+35,Tie Interceptor,TIE/in interceptor,Sienar Fleet Systems,75000.0,9.6,1250.0,1,0,75.0,2 days,Starfighter,None,Return of the Jedi
+36,Naboo Royal Cruiser,J-type diplomatic barge,Theed Palace Space Vessel Engineering Corps,200000.0,115.0,920.0,8,50,500000.0,2 months,Yacht,Queen Amidala,Attack of the Clones
+37,Snowspeeder,T-47 airspeeder,Incom corporation,0.0,4.5,650.0,2,0,10.0,none,airspeeder,"Luke Skywalker, Wedge Antilles",The Empire Strikes Back
+38,Sand Crawler,Digger Crawler,Corellia Mining Corporation,150000.0,36.8,30.0,46,30,50000.0,2 months,Wheeled,None,A New Hope
+39,X-34 Landspeeder,X-34 Landspeeder,SoroSuub Corporation,10550.0,3.4,250.0,1,1,5.0,None,Landspeeder,Luke Skywalker,A New Hope
+40,TIE Bomber,TIE/sa Bomber,Sienar Fleet Systems,86500.0,7.8,850.0,1,0,15.0,2 days,Bomber,None,The Empire Strikes Back
+41,AT-AT,All Terrain Armored Transport,Kuat Drive Yards,226500.0,20.6,60.0,5,40,1000.0,None,Walker,None,"The Empire Strikes Back, Return of the Jedi"
+42,AT-ST,All Terrain Scout Transport,Kuat Drive Yards,89100.0,8.6,90.0,2,0,200.0,None,Walker,None,"The Empire Strikes Back, Return of the Jedi"
+43,Sith Speeder,FC-20 Speeder Bike,Razalon,4000.0,1.5,180.0,1,0,5.0,None,Speeder,Darth Maul,The Phantom Menace
+44,Speeder Bike,74-Z Speeder Bike,Aratech Repulsor Company,8000.0,3.0,360.0,1,1,4.0,2 days,Speeder,Scout Trooper,Return of the Jedi
+45,Imperial Speeder Bike,74-Z Speeder Bike,Aratech Repulsor Company,8000.0,3.0,500.0,1,1,5.0,2 days,Speeder,Scout Trooper,Return of the Jedi
+46,Cloud Car,Storm IV Twin-Pod,Bespin Motors,75000.0,7.0,1500.0,2,0,10.0,None,Air speeder,None,The Empire Strikes Back
+47,Sith Infiltrator,Sith Infiltrator,Sienar Fleet Systems,0.0,26.5,1180.0,1,6,150000.0,1 month,Starfighter,Darth Maul,The Phantom Menace
+48,B-Wing,B-Wing starfighter,Slayn & Korpil,220000.0,16.9,950.0,1,0,45.0,1 week,Starfighter,None,Return of the Jedi
+49,Slave 1,Firespray-31-class patrol and attack craft,Kuat Systems Engineering,150000.0,21.5,1000.0,1,6,80000.0,1 month,Patrol craft,Boba Fett,"The Empire Strikes Back, Attack of the Clones"
+50,Solar Sailer,Punworcca 116-class interstellar sloop,Huppla Pasa Tisc Shipwrights Collective,285000.0,15.2,1600.0,3,11,180000.0,1 month,Sloop,Count Dooku,Attack of the Clones

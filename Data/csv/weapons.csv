@@ -1,0 +1,61 @@
+id,name,model,manufacturer,cost_in_credits,length,type,description,films
+1,Lightsaber,Standard Lightsaber,Various,,1.0,Melee,A weapon with a plasma blade powered by a kyber crystal.,All Episodes
+2,DL-44 Blaster Pistol,DL-44,BlasTech Industries,1500.0,0.3,Blaster,A powerful and highly modifiable blaster pistol.,"A New Hope, The Empire Strikes Back, Return of the Jedi, The Force Awakens"
+3,E-11 Blaster Rifle,E-11,BlasTech Industries,1000.0,0.43,Blaster,Standard issue blaster rifle for Imperial stormtroopers.,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+4,Bowcaster,Wookiee Bowcaster,Various,,1.5,Projectile,A traditional Wookiee weapon that fires explosive quarrels.,"A New Hope, The Force Awakens, The Last Jedi"
+5,Thermal Detonator,Model TD,Various,2000.0,0.1,Explosive,A highly destructive grenade.,"Return of the Jedi, The Force Awakens"
+6,Electrostaff,Z6 Riot Control Baton,Merr-Sonn Munitions,,2.0,Melee,"A staff that delivers electric shocks, used by riot control stormtroopers.",The Force Awakens
+7,DC-15A Blaster Rifle,DC-15A,BlasTech Industries,2500.0,1.26,Blaster,A heavy blaster rifle used by clone troopers.,"Attack of the Clones, Revenge of the Sith"
+8,Force Pike,Force Pike,Various,,2.0,Melee,A staff weapon used by the Emperor's Royal Guard.,Return of the Jedi
+9,SE-14C Blaster Pistol,SE-14C,BlasTech Industries,800.0,0.22,Blaster,A rapid-fire blaster pistol.,A New Hope
+10,Westar-34 Blaster,Westar-34,BlasTech Industries,1200.0,0.23,Blaster,A pair of blaster pistols used by Jango Fett.,Attack of the Clones
+11,DH-17 Blaster Pistol,DH-17,BlasTech Industries,1200.0,0.3,Blaster,A blaster pistol used by the Rebel Alliance.,"A New Hope, The Empire Strikes Back"
+12,DC-17 Hand Blaster,DC-17,BlasTech Industries,1500.0,0.32,Blaster,A blaster pistol used by clone troopers.,The Clone Wars
+13,A280 Blaster Rifle,A280,BlasTech Industries,2000.0,0.45,Blaster,A heavy blaster rifle used by the Rebel Alliance.,Return of the Jedi
+14,RT-97C Heavy Blaster Rifle,RT-97C,BlasTech Industries,3000.0,1.2,Blaster,A heavy blaster rifle used by Imperial stormtroopers.,A New Hope
+15,F-11D Blaster Rifle,F-11D,Sonn-Blas Corporation,2500.0,1.1,Blaster,A blaster rifle used by the First Order stormtroopers.,"The Force Awakens, The Last Jedi, The Rise of Skywalker"
+16,Sonic Rifle,ZX Miniature Proton Rifle,Baktoid Armor Workshop,3500.0,1.4,Blaster,A sonic rifle used by the Geonosians.,Attack of the Clones
+17,Ryyk Blade,Ryyk Blade,Wookiees,,1.0,Melee,A traditional Wookiee melee weapon.,Star Wars: The Clone Wars
+18,Z-6 Rotary Blaster Cannon,Z-6,BlasTech Industries,5000.0,1.5,Blaster,A rotary blaster cannon used by clone troopers.,The Clone Wars
+19,Gaderffii,Gaderffii,Tusken Raiders,,1.5,Melee,A traditional melee weapon used by the Tusken Raiders.,"A New Hope, Attack of the Clones"
+20,Bo-Rifle,Bo-Rifle,Lasat,,2.0,Melee/Blaster,A hybrid melee and blaster weapon used by the Lasat.,Star Wars Rebels
+21,DLT-19 Heavy Blaster Rifle,DLT-19,BlasTech Industries,4500.0,1.1,Blaster,A heavy blaster rifle used by Imperial stormtroopers.,A New Hope
+22,Kyuzo Petar,Kyuzo Petar,Kyuzo,,1.2,Melee,A traditional melee weapon used by the Kyuzo.,The Clone Wars
+23,Electro-proton Bomb,Electro-proton Bomb,Galactic Republic,,,Explosive,A massive bomb used to disable droids.,The Clone Wars
+24,Nightsister Energy Bow,Energy Bow,Nightsisters,,1.5,Projectile,A traditional bow used by the Nightsisters.,The Clone Wars
+25,Relby-v10 Mortar Gun,Relby-v10,BlasTech Industries,5000.0,1.2,Blaster,A mortar gun used by bounty hunters.,Star Wars Rebels
+26,Stun Baton,Stun Baton,First Order,,0.8,Melee,A melee weapon used by the First Order stormtroopers.,The Force Awakens
+27,Particle Beam Blaster,Particle Beam Blaster,Various,3000.0,0.4,Blaster,A blaster that fires particle beams.,The Clone Wars
+28,Vibroblade,Vibroblade,Various,,0.5,Melee,A melee weapon with a vibrating blade.,"The Clone Wars, The Mandalorian"
+29,DC-15S Blaster Carbine,DC-15S,BlasTech Industries,1500.0,0.76,Blaster,A compact blaster carbine used by clone troopers.,"Attack of the Clones, Revenge of the Sith"
+30,Whipcord Thrower,Whipcord Thrower,Various,,,Projectile,A wrist-mounted device that fires a whipcord.,The Mandalorian
+31,Wrist Rocket,Wrist Rocket,Various,,,Projectile,A wrist-mounted rocket launcher.,The Mandalorian
+32,Flame Thrower,Flame Thrower,Various,,,Projectile,A device that projects a stream of fire.,The Mandalorian
+33,Amban Phase-Pulse Blaster,Amban,Various,,1.5,Blaster,A blaster with a long barrel used by the Mandalorians.,The Mandalorian
+34,Vibro-ax,Vibro-ax,Various,,1.2,Melee,A melee weapon with a vibrating blade.,Return of the Jedi
+35,Power Hammer,Power Hammer,Various,,1.0,Melee,A hammer with an energy source to increase its impact.,Star Wars: The Clone Wars
+36,Ion Blaster,Ion Blaster,Various,1800.0,0.5,Blaster,A blaster that fires ion energy to disable electronics.,The Clone Wars
+37,Stun Gun,Stun Gun,Various,1200.0,0.3,Blaster,A weapon that emits a stunning energy beam.,The Mandalorian
+38,Proton Torpedo,Proton Torpedo,Various,,,Projectile,A powerful torpedo used in space battles.,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+39,Bow Rifle,Bow Rifle,Lasat,,1.5,Melee/Blaster,A hybrid melee and blaster weapon used by the Lasat.,Star Wars Rebels
+40,Force Lance,Force Lance,Jedi,,1.2,Melee,A melee weapon imbued with the Force.,Star Wars: The Clone Wars
+41,DC-17m Interchangeable Weapon System,DC-17m,BlasTech Industries,3500.0,0.85,Blaster,A modular blaster used by clone commandos.,Star Wars: Republic Commando
+42,Geonosian Sonic Blaster,Sonic Blaster,Baktoid Armor Workshop,2500.0,1.0,Blaster,A blaster that fires sonic energy.,Attack of the Clones
+43,E-Web Heavy Blaster,E-Web,BlasTech Industries,5000.0,2.0,Blaster,A heavy blaster used by Imperial forces.,"The Empire Strikes Back, The Mandalorian"
+44,Vibrosword,Vibrosword,Various,,1.2,Melee,A sword with a vibrating blade.,The Clone Wars
+45,T-7 Ion Disruptor Rifle,T-7,SoroSuub Corporation,4000.0,1.1,Blaster,An ion disruptor rifle used by the Empire.,Star Wars Rebels
+46,Blurrg-1120 Holdout Blaster,Blurrg-1120,BlasTech Industries,1200.0,0.2,Blaster,A compact blaster pistol used by the Resistance.,The Last Jedi
+47,Scatterblaster,Scatterblaster,Various,2000.0,0.6,Blaster,A blaster that fires in a wide spread.,Star Wars: Battlefront
+48,Stokhli Spray Stick,Spray Stick,Various,,1.5,Blaster,A weapon that fires a stream of immobilizing spray.,Star Wars: Galaxy's Edge
+49,Bowcaster,Wookiee Bowcaster,Various,,1.5,Projectile,A traditional Wookiee weapon that fires explosive quarrels.,"A New Hope, The Force Awakens, The Last Jedi"
+50,Disruptor Rifle,Disruptor Rifle,Various,4500.0,1.0,Blaster,A blaster that disintegrates its target.,The Mandalorian
+51,Thermal Detonator,Model TD,Various,2000.0,0.1,Explosive,A highly destructive grenade.,"Return of the Jedi, The Force Awakens"
+52,Bo-Rifle,Bo-Rifle,Lasat,,2.0,Melee/Blaster,A hybrid melee and blaster weapon used by the Lasat.,Star Wars Rebels
+53,DL-18 Blaster Pistol,DL-18,BlasTech Industries,1500.0,0.35,Blaster,A common blaster pistol.,Return of the Jedi
+54,C1 Personal Ion Blaster,C1,Various,2000.0,0.4,Blaster,An ion blaster used by bounty hunters.,The Clone Wars
+55,Relby-k23 Blaster Pistol,Relby-k23,BlasTech Industries,1200.0,0.25,Blaster,A blaster pistol used by bounty hunters.,The Clone Wars
+56,KX-80 Repeating Blaster,KX-80,BlasTech Industries,5000.0,1.5,Blaster,A heavy repeating blaster.,The Clone Wars
+57,Disruptor Pistol,Disruptor Pistol,Various,3000.0,0.3,Blaster,A disruptor pistol that disintegrates its target.,The Mandalorian
+58,Dart Shooter,Dart Shooter,Various,,0.2,Projectile,A wrist-mounted dart shooter.,The Mandalorian
+59,Energy Sling,Energy Sling,Various,,0.8,Projectile,A sling that fires energy projectiles.,Star Wars: The Clone Wars
+60,Merr-Sonn Scatter Gun,Scatter Gun,Merr-Sonn Munitions,2200.0,0.8,Blaster,A scatter gun that fires a wide spread of blaster bolts.,The Force Awakens

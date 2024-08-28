@@ -1,0 +1,41 @@
+id,name,classification,designation,average_height,skin_colors,hair_colors,eye_colors,average_lifespan,language,homeworld
+1,Human,Mammal,Sentient,1.8,"Light, Dark",Various,Various,79.0,Galactic Basic,Various
+2,Yoda's species,Unknown,Sentient,0.66,Green,White,Brown,900.0,Galactic Basic,Unknown
+3,Wookiee,Mammal,Sentient,2.28,Brown,Brown,Blue,400.0,Shyriiwook,Kashyyyk
+4,Gungan,Amphibian,Sentient,1.96,Orange,None,Orange,70.0,Gungan,Naboo
+5,Twi'lek,Mammal,Sentient,1.8,"Blue, Green, Red, Yellow",None,Various,80.0,Twi'leki,Ryloth
+6,Mon Calamari,Amphibian,Sentient,1.7,Orange,None,Red,70.0,Mon Calamarian,Mon Cala
+7,Rodian,Reptilian,Sentient,1.7,Green,None,Black,78.0,Rodese,Rodia
+8,Droid,Artificial,Non-sentient,,Various,None,Various,,Binary,None
+9,Trandoshan,Reptilian,Sentient,2.0,Green,None,Red,70.0,Dosh,Trandosha
+10,Kel Dor,Mammal,Sentient,1.88,Orange,None,Black,70.0,Kel Dor,Dorin
+11,Nautolan,Amphibian,Sentient,1.96,Green,None,Black,80.0,Nautila,Glee Anselm
+12,Togruta,Mammal,Sentient,1.8,Red,None,Blue,94.0,Togruti,Shili
+13,Hutt,Gastropod,Sentient,3.9,Green,None,Orange,1000.0,Huttese,Nal Hutta
+14,Zabrak,Mammal,Sentient,1.8,Red,None,Yellow,80.0,Zabraki,Iridonia
+15,Muun,Mammal,Sentient,2.0,Pale,None,Black,100.0,Muun,Muunilinst
+16,Geonosian,Insectoid,Sentient,1.75,Brown,None,Red,90.0,Geonosian,Geonosis
+17,Chiss,Mammal,Sentient,1.8,Blue,Blue-black,Red,80.0,Cheunh,Csilla
+18,Mirialan,Mammal,Sentient,1.75,Green,Black,Blue,70.0,Mirialan,Mirial
+19,Kaminoan,Amphibian,Sentient,2.0,Pale,None,Black,80.0,Kaminoan,Kamino
+20,Chadra-Fan,Mammal,Sentient,1.0,Brown,Brown,Black,50.0,Chadrafan,Chad
+21,Dathomirian,Hybrid,Sentient,1.7,Pale,None,Yellow,60.0,Paecian,Dathomir
+22,Duros,Reptilian,Sentient,1.9,Blue,None,Red,70.0,Durese,Duro
+23,Ewok,Mammal,Sentient,1.0,Brown,Brown,Brown,50.0,Ewokese,Endor
+24,Gamorrean,Mammal,Sentient,1.8,Green,None,Red,45.0,Gamorrean,Gamorr
+25,Ithorian,Mammal,Sentient,2.0,Brown,None,Black,85.0,Ithorese,Ithor
+26,Jawa,Mammal,Sentient,1.0,Unknown,None,Yellow,80.0,Jawaese,Tatooine
+27,Klatooinian,Reptilian,Sentient,1.8,Brown,None,Black,90.0,Klatooinian,Klatooine
+28,Nikto,Reptilian,Sentient,1.8,Red,None,Black,68.0,Nikto,Kintan
+29,Quarren,Amphibian,Sentient,1.8,Orange,None,Blue,79.0,Quarrenese,Mon Cala
+30,Sullustan,Mammal,Sentient,1.6,Light,None,Black,70.0,Sullustese,Sullust
+31,Talz,Mammal,Sentient,2.0,White,None,Blue,60.0,Talzzi,Alzoc III
+32,Tusken Raider,Mammal,Sentient,1.8,Unknown,Unknown,Unknown,70.0,Tusken,Tatooine
+33,Ugnaught,Mammal,Sentient,1.0,Pink,None,Black,200.0,Ugnaught,Gentes
+34,Weequay,Mammal,Sentient,1.7,Brown,Brown,Black,91.0,Weequay,Sriluur
+35,Zygerrian,Mammal,Sentient,1.8,Tan,None,Blue,85.0,Zygerrian,Zygerria
+36,Jedi,Mammal,Sentient,1.8,Various,Various,Various,120.0,Galactic Basic,Various
+37,Mandalorian,Mammal,Sentient,1.8,Various,Various,Various,80.0,Mando'a,Mandalore
+38,Yarkora,Mammal,Sentient,2.0,White,None,Black,200.0,Yarkoran,Yarkora
+39,Toydarian,Mammal,Sentient,1.2,"Blue, Green",None,Yellow,91.0,Toydarian,Toydaria
+40,Kaminoan,Amphibian,Sentient,2.0,Pale,None,Black,80.0,Kaminoan,Kamino

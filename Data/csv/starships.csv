@@ -1,0 +1,61 @@
+id,name,model,manufacturer,cost_in_credits,length,max_atmosphering_speed,crew,passengers,cargo_capacity,consumables,hyperdrive_rating,MGLT,starship_class,pilots,films
+1,Millennium Falcon,YT-1300 light freighter,Corellian Engineering Corporation,100000.0,34.75,1050.0,4,6,100000.0,2 months,0.5,75,Light freighter,"Han Solo, Chewbacca","A New Hope, The Empire Strikes Back, Return of the Jedi, The Force Awakens, The Last Jedi, The Rise of Skywalker"
+2,X-wing,T-65 X-wing starfighter,Incom Corporation,149999.0,12.5,1050.0,1,0,110.0,1 week,1.0,100,Starfighter,Luke Skywalker,"A New Hope, The Empire Strikes Back, Return of the Jedi, The Force Awakens, The Last Jedi, The Rise of Skywalker"
+3,TIE Fighter,Twin Ion Engine/Ln Starfighter,Sienar Fleet Systems,75000.0,8.99,1200.0,1,0,65.0,2 days,1.0,100,Starfighter,None,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+4,Star Destroyer,Imperial I-class Star Destroyer,Kuat Drive Yards,150000000.0,1600.0,975.0,47060,0,36000000.0,2 years,2.0,60,Capital ship,None,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+5,Slave 1,Firespray-31-class patrol and attack craft,Kuat Systems Engineering,,21.5,1000.0,1,6,80000.0,1 month,3.0,70,Patrol craft,Boba Fett,"The Empire Strikes Back, Attack of the Clones, The Mandalorian"
+6,A-wing,RZ-1 A-wing interceptor,Alliance Underground Engineering,175000.0,9.6,1300.0,1,0,40.0,1 week,1.0,120,Interceptor,None,"Return of the Jedi, The Last Jedi"
+7,B-wing,A/SF-01 B-wing starfighter,Slayn & Korpil,220000.0,16.9,950.0,1,0,45.0,1 week,2.0,91,Assault starfighter,None,Return of the Jedi
+8,Y-wing,BTL Y-wing starfighter,Koensayr Manufacturing,135000.0,23.4,1000.0,2,0,110.0,1 week,1.0,80,Assault starfighter,None,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+9,Executor,Executor-class Star Dreadnought,"Kuat Drive Yards, Fondor Shipyards",1143350000.0,19000.0,975.0,279144,38000,250000000.0,6 years,4.0,40,Star Dreadnought,Darth Vader,"The Empire Strikes Back, Return of the Jedi"
+10,Rebel transport,GR-75 medium transport,"Gallofree Yards, Inc.",3000000.0,90.0,650.0,6,90,19000000.0,6 months,4.0,20,Medium transport,None,"The Empire Strikes Back, Return of the Jedi"
+11,Naboo Royal Starship,J-type 327 Nubian,Theed Palace Space Vessel Engineering Corps,,76.0,920.0,8,20,2000000.0,1 month,1.8,75,Yacht,Queen Amidala,The Phantom Menace
+12,ARC-170,Aggressive ReConnaissance-170 starfighter,"Incom Corporation, Subpro Corporation",,14.5,1000.0,3,0,110.0,5 days,1.0,100,Starfighter,None,Revenge of the Sith
+13,Eta-2 Actis,Eta-2 Actis-class light interceptor,Kuat Systems Engineering,,5.47,1500.0,1,0,60.0,2 days,1.0,85,Interceptor,"Anakin Skywalker, Obi-Wan Kenobi",Revenge of the Sith
+14,Venator-class Star Destroyer,Venator-class,Kuat Drive Yards,,1137.0,975.0,7400,2000,20000000.0,6 years,2.0,60,Capital ship,None,"Revenge of the Sith, The Clone Wars"
+15,Naboo N-1 Starfighter,N-1,Theed Palace Space Vessel Engineering Corps,,11.0,1100.0,1,0,65.0,3 days,1.0,100,Starfighter,Anakin Skywalker,"The Phantom Menace, Attack of the Clones"
+16,Jedi Interceptor,Eta-2 Actis-class interceptor,Kuat Systems Engineering,,5.47,1500.0,1,0,60.0,2 days,1.0,85,Interceptor,"Anakin Skywalker, Obi-Wan Kenobi",Revenge of the Sith
+17,Sith Infiltrator,Scimitar,Republic Sienar Systems,,26.5,1180.0,1,6,150000.0,1 month,1.5,80,Starfighter,Darth Maul,The Phantom Menace
+18,V-wing,Alpha-3 Nimbus-class V-wing starfighter,Kuat Systems Engineering,,7.9,1050.0,1,0,60.0,2 days,1.0,90,Starfighter,None,Revenge of the Sith
+19,Delta-7 Aethersprite,Delta-7 Aethersprite-class light interceptor,Kuat Systems Engineering,,8.0,1150.0,1,0,60.0,2 days,1.0,90,Interceptor,Obi-Wan Kenobi,Attack of the Clones
+20,Imperial Shuttle,Lambda-class T-4a shuttle,Sienar Fleet Systems,,20.0,850.0,6,20,80000.0,1 month,1.0,50,Shuttle,Emperor Palpatine,Return of the Jedi
+21,Tantive IV,CR90 corvette,Corellian Engineering Corporation,3500000.0,150.0,950.0,165,30,3000000.0,1 year,2.0,60,Corvette,Leia Organa,"A New Hope, Revenge of the Sith"
+22,Slave II,Firespray-31-class patrol and attack craft,Kuat Systems Engineering,,21.5,1000.0,1,6,80000.0,1 month,3.0,70,Patrol craft,Boba Fett,"The Empire Strikes Back, Attack of the Clones, The Mandalorian"
+23,TIE Bomber,TIE/sa bomber,Sienar Fleet Systems,,7.8,850.0,1,0,40.0,2 days,1.0,60,Bomber,None,The Empire Strikes Back
+24,Imperial Star Destroyer,Imperial I-class Star Destroyer,Kuat Drive Yards,150000000.0,1600.0,975.0,47060,0,36000000.0,2 years,2.0,60,Capital ship,None,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+25,Sith Speeder,FC-20 speeder bike,Razalon,,2.0,180.0,1,0,10.0,1 day,,,Speeder,Darth Maul,The Phantom Menace
+26,Speeder Bike,74-Z speeder bike,Aratech Repulsor Company,,3.0,360.0,1,1,4.0,2 days,,,Speeder,None,Return of the Jedi
+27,Solar Sailer,Punworcca 116-class interstellar sloop,Huppla Pasa Tisc Shipwrights Collective,,15.2,,3,11,180000.0,1 month,1.5,60,Sloop,Count Dooku,Attack of the Clones
+28,Geonosian Starfighter,Nantex-class territorial defense starfighter,Huppla Pasa Tisc Shipwrights Collective,,9.8,1200.0,1,0,30.0,2 days,1.0,100,Starfighter,None,Attack of the Clones
+29,Hound's Tooth,YT-2000 light freighter,Corellian Engineering Corporation,,20.0,850.0,6,10,500000.0,2 months,1.0,75,Light freighter,Bossk,The Clone Wars
+30,Scimitar,Sith Infiltrator,Republic Sienar Systems,,26.5,1180.0,1,6,150000.0,1 month,1.5,80,Starfighter,Darth Maul,The Phantom Menace
+31,Tie Interceptor,TIE/in interceptor,Sienar Fleet Systems,,9.6,1250.0,1,0,75.0,2 days,1.0,110,Starfighter,None,Return of the Jedi
+32,Naboo Royal Cruiser,J-type diplomatic barge,Theed Palace Space Vessel Engineering Corps,,115.0,920.0,8,50,500000.0,2 months,1.8,75,Yacht,Queen Amidala,Attack of the Clones
+33,X-34 Landspeeder,X-34,SoroSuub Corporation,,3.4,250.0,1,1,5.0,2 days,,,Landspeeder,Luke Skywalker,A New Hope
+34,Snowspeeder,T-47 airspeeder,Incom Corporation,,5.3,650.0,2,0,10.0,2 days,,,Airspeeder,Luke Skywalker,The Empire Strikes Back
+35,The Ghost,VCX-100 light freighter,Corellian Engineering Corporation,,43.9,1025.0,4,6,70000.0,2 months,1.0,70,Light freighter,Hera Syndulla,Star Wars Rebels
+36,Phantom,VCX-series auxiliary starfighter,Corellian Engineering Corporation,,14.1,1050.0,1,6,40000.0,1 month,1.0,90,Auxiliary starfighter,Ezra Bridger,Star Wars Rebels
+37,Outrider,YT-2400 light freighter,Corellian Engineering Corporation,,21.5,950.0,2,6,70000.0,2 months,0.75,70,Light freighter,Dash Rendar,Shadows of the Empire
+38,Razor Crest,ST-70 Assault Ship,Kuat Drive Yards,,24.0,1000.0,2,6,50000.0,1 month,1.0,75,Assault ship,Din Djarin,The Mandalorian
+39,Naboo Yacht,J-type star skiff,Theed Palace Space Vessel Engineering Corps,,29.2,920.0,8,30,300000.0,1 month,1.8,75,Yacht,Padmé Amidala,Revenge of the Sith
+40,U-wing,UT-60D,Incom Corporation,,24.2,950.0,4,8,40000.0,1 month,1.0,80,Transport,Cassian Andor,Rogue One
+41,TIE Advanced x1,TIE Advanced x1,Sienar Fleet Systems,,9.2,1200.0,1,0,75.0,2 days,1.0,105,Starfighter,Darth Vader,A New Hope
+42,J-type 327 Nubian,J-type 327,Theed Palace Space Vessel Engineering Corps,,76.0,920.0,8,20,2000000.0,1 month,1.8,75,Yacht,Queen Amidala,The Phantom Menace
+43,Naboo Royal Starship,J-type 327 Nubian,Theed Palace Space Vessel Engineering Corps,,76.0,920.0,8,20,2000000.0,1 month,1.8,75,Yacht,Queen Amidala,The Phantom Menace
+44,Naboo N-1 Starfighter,N-1,Theed Palace Space Vessel Engineering Corps,,11.0,1100.0,1,0,65.0,3 days,1.0,100,Starfighter,Anakin Skywalker,"The Phantom Menace, Attack of the Clones"
+45,Sith Infiltrator,Scimitar,Republic Sienar Systems,,26.5,1180.0,1,6,150000.0,1 month,1.5,80,Starfighter,Darth Maul,The Phantom Menace
+46,Havoc Marauder,Omicron-class attack shuttle,Cygnus Spaceworks,,22.3,1050.0,2,12,70000.0,1 month,1.0,70,Attack shuttle,Clone Force 99,The Bad Batch
+47,Luthen's Ship,Fondor Haulcraft,Fondor Shipyards,,34.8,1000.0,1,6,100000.0,1 month,1.0,80,Haulcraft,Luthen Rael,Andor
+48,Tantive IV,CR90 corvette,Corellian Engineering Corporation,3500000.0,150.0,950.0,165,30,3000000.0,1 year,2.0,60,Corvette,Leia Organa,"A New Hope, Revenge of the Sith"
+49,Millennium Falcon,YT-1300 light freighter,Corellian Engineering Corporation,100000.0,34.75,1050.0,4,6,100000.0,2 months,0.5,75,Light freighter,"Han Solo, Chewbacca","A New Hope, The Empire Strikes Back, Return of the Jedi, The Force Awakens, The Last Jedi, The Rise of Skywalker"
+50,Jedi Starfighter,Delta-7 Aethersprite-class light interceptor,Kuat Systems Engineering,,8.0,1150.0,1,0,60.0,2 days,1.0,90,Interceptor,Obi-Wan Kenobi,Attack of the Clones
+51,Vulture Droid,Variable Geometry Self-Propelled Battle Droid,Haor Chall Engineering,,3.5,1200.0,,,,,1.0,100,Starfighter,None,The Phantom Menace
+52,Tri-Fighter,Droid Tri-Fighter,"Colla Designs, Phlac-Arphocc Automata Industries",,5.4,1180.0,,,,,1.0,100,Starfighter,None,Revenge of the Sith
+53,Hyena Bomber,Baktoid Armor Workshop,"Colla Designs, Phlac-Arphocc Automata Industries",,14.9,1180.0,,,,,1.0,100,Starfighter,None,The Clone Wars
+54,Droid Gunship,Heavy Missile Platform,Baktoid Fleet Ordnance,,12.0,950.0,,,,,1.0,100,Gunship,None,The Clone Wars
+55,Malevolence,Subjugator-class heavy cruiser,Free Dac Volunteers Engineering Corps,,4845.0,975.0,216,0,14000000.0,6 years,1.5,60,Heavy cruiser,General Grievous,The Clone Wars
+56,Invisible Hand,Providence-class Dreadnought,Free Dac Volunteers Engineering Corps,,1088.0,950.0,600,0,15000000.0,6 years,1.5,60,Dreadnought,General Grievous,Revenge of the Sith
+57,Malevolence,Subjugator-class heavy cruiser,Free Dac Volunteers Engineering Corps,,4845.0,975.0,216,0,14000000.0,6 years,1.5,60,Heavy cruiser,General Grievous,The Clone Wars
+58,Invisible Hand,Providence-class Dreadnought,Free Dac Volunteers Engineering Corps,,1088.0,950.0,600,0,15000000.0,6 years,1.5,60,Dreadnought,General Grievous,Revenge of the Sith
+59,Droid Control Ship,Lucrehulk-class battleship,Hoersch-Kessel Drive,,3170.0,950.0,150,0,55000000.0,6 years,2.0,60,Battleship,None,The Phantom Menace
+60,Venator-class Star Destroyer,Venator-class,Kuat Drive Yards,,1137.0,975.0,7400,2000,20000000.0,6 years,2.0,60,Capital ship,None,"Revenge of the Sith, The Clone Wars"

@@ -1,0 +1,9 @@
+id,name,founded,dissolved,leader,members,affiliation,description,films
+1,Jedi Order,-25000,19,"Yoda, Mace Windu","Obi-Wan Kenobi, Anakin Skywalker, Luke Skywalker",Galactic Republic,"An ancient monastic, spiritual, and academic organization.","The Phantom Menace, Attack of the Clones, Revenge of the Sith, A New Hope, The Empire Strikes Back, Return of the Jedi"
+2,Sith Order,-5000,4,Darth Sidious,"Darth Vader, Darth Maul, Darth Tyranus",Galactic Empire,A sect of Force-sensitive individuals who utilize the dark side of the Force.,"The Phantom Menace, Attack of the Clones, Revenge of the Sith, A New Hope, The Empire Strikes Back, Return of the Jedi"
+3,Galactic Empire,19,4,Emperor Palpatine,"Darth Vader, Grand Moff Tarkin",None,An authoritarian government that replaced the Galactic Republic.,"Revenge of the Sith, A New Hope, The Empire Strikes Back, Return of the Jedi"
+4,Rebel Alliance,-2,4,"Mon Mothma, Leia Organa","Luke Skywalker, Han Solo, Lando Calrissian",New Republic,An alliance of insurgent forces formed to oppose the Galactic Empire.,"A New Hope, The Empire Strikes Back, Return of the Jedi"
+5,Galactic Republic,-25000,19,Supreme Chancellor,"Padmé Amidala, Bail Organa",Jedi Order,"The democratic union that governed the galaxy for over 25,000 years.","The Phantom Menace, Attack of the Clones, Revenge of the Sith"
+6,Trade Federation,-350,0,Nute Gunray,"Rune Haako, Lott Dod",Separatists,A commercial trade organization turned military force.,"The Phantom Menace, Attack of the Clones, Revenge of the Sith"
+7,First Order,34,35,"Supreme Leader Snoke, Kylo Ren","General Hux, Captain Phasma",None,A military dictatorship that emerged from the fallen Galactic Empire.,"The Force Awakens, The Last Jedi, The Rise of Skywalker"
+8,Resistance,34,35,Leia Organa,"Poe Dameron, Finn, Rey",New Republic,A private military force that opposed the First Order.,"The Force Awakens, The Last Jedi, The Rise of Skywalker"

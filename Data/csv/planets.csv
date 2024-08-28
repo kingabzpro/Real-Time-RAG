@@ -1,0 +1,14 @@
+id,name,diameter,rotation_period,orbital_period,gravity,population,climate,terrain,surface_water,residents,films
+1,Tatooine,10465.0,23.0,304.0,1 standard,200000,arid,desert,1.0,"Anakin Skywalker, Shmi Skywalker, Luke Skywalker, C-3PO","A New Hope, The Phantom Menace, Attack of the Clones, Revenge of the Sith"
+2,Alderaan,12500.0,24.0,364.0,1 standard,2000000000,temperate,"grasslands, mountains",40.0,Leia Organa,"A New Hope, Revenge of the Sith"
+3,Naboo,12120.0,26.0,312.0,1 standard,4500000000,temperate,"grassy hills, swamps, forests, mountains",12.0,"Padmé Amidala, Jar Jar Binks, Sheev Palpatine","The Phantom Menace, Attack of the Clones, Revenge of the Sith"
+4,Stewjon,,,,1 standard,,temperate,"grasslands, lakes",,Obi-Wan Kenobi,
+5,Corellia,11000.0,25.0,329.0,1 standard,3000000000,temperate,"plains, urban, forests, hills",70.0,Han Solo,Solo: A Star Wars Story
+6,Kashyyyk,12765.0,26.0,381.0,1 standard,45000000,tropical,"forests, jungles",60.0,Chewbacca,Revenge of the Sith
+7,Kamino,19720.0,27.0,463.0,1 standard,1000000000,temperate,ocean,100.0,Jango Fett,Attack of the Clones
+8,Mon Cala,11030.0,21.0,398.0,1 standard,27000000000,temperate,"oceans, islands, marshes",100.0,Admiral Ackbar,"Return of the Jedi, The Last Jedi"
+9,Geonosis,11370.0,30.0,256.0,0.9 standard,100000000000,"temperate, arid","rock, desert, canyons, mesas",5.0,Poggle the Lesser,"Attack of the Clones, The Clone Wars"
+10,Jakku,,23.0,298.0,0.9 standard,,arid,"deserts, mesas",8.0,Rey,"The Force Awakens, The Rise of Skywalker"
+11,Yavin 4,10200.0,24.0,4818.0,1 standard,1000,"temperate, tropical","jungles, forests",8.0,Poe Dameron,"A New Hope, Rogue One, The Rise of Skywalker"
+12,Rodia,7549.0,29.0,305.0,1 standard,1300000000,"tropical, humid","rainforests, oceans",60.0,Greedo,The Clone Wars
+13,Coruscant,12240.0,24.0,365.0,1 standard,1000000000000,temperate,urban,0.0,Palpatine,"The Phantom Menace, Attack of the Clones, Revenge of the Sith, The Clone Wars, The Rise of Skywalker"

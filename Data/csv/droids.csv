@@ -1,0 +1,11 @@
+id,name,model,manufacturer,height,mass,sensor_color,plating_color,primary_function,films
+1,R2-D2,R2 series,Industrial Automaton,0.96,32.0,Red,White/Blue,Astromech droid,"A New Hope, The Empire Strikes Back, Return of the Jedi, The Phantom Menace, Attack of the Clones, Revenge of the Sith, The Force Awakens, The Last Jedi, The Rise of Skywalker"
+2,C-3PO,3PO series,Cybot Galactica,1.71,75.0,Yellow,Gold,Protocol droid,"A New Hope, The Empire Strikes Back, Return of the Jedi, The Phantom Menace, Attack of the Clones, Revenge of the Sith, The Force Awakens, The Last Jedi, The Rise of Skywalker"
+3,BB-8,BB series,BB Astromech,0.67,18.0,Black,White/Orange,Astromech droid,"The Force Awakens, The Last Jedi, The Rise of Skywalker"
+4,K-2SO,KX series,Arakyd Industries,2.16,104.0,Red,Black,Security droid,Rogue One: A Star Wars Story
+5,IG-88,IG series,Holowan Laboratories,2.0,140.0,Red,Silver,Assassin droid,The Empire Strikes Back
+6,HK-47,HK series,Czerka Corporation,1.8,75.0,Red,Bronze,Assassin droid,Star Wars: Knights of the Old Republic
+7,L3-37,Custom,L3-37,1.7,60.0,Green,White,Pilot droid,Solo: A Star Wars Story
+8,R5-D4,R5 series,Industrial Automaton,0.97,32.0,Red,White/Red,Astromech droid,A New Hope
+9,Chopper,C1 series,Industrial Automaton,1.04,35.0,Orange,White/Orange,Astromech droid,Star Wars Rebels
+10,EV-9D9,EV series,MerenData,1.6,48.0,Red,Gray,Supervisor droid,Return of the Jedi
