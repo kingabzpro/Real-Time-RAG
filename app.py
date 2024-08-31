@@ -14,8 +14,9 @@ groq_api_key = os.getenv("Groq_API_Key")
 llm = ChatGroq(model="llama-3.1-70b-versatile", api_key=groq_api_key)
 
 # Initialize the embedding model
-embed_model = HuggingFaceEmbeddings(model_name="mixedbread-ai/mxbai-embed-large-v1",
-                                    model_kwargs = {'device': 'cpu'})
+embed_model = HuggingFaceEmbeddings(
+    model_name="mixedbread-ai/mxbai-embed-large-v1", model_kwargs={"device": "cpu"}
+)
 
 # Load the vector store from a local directory
 vectorstore = Chroma(
@@ -48,13 +49,34 @@ rag_chain = (
     | StrOutputParser()
 )
 
+# Global variable to store the last input text
+last_input_text = ""
+
+
 # Define the function to stream the RAG memory
 def rag_memory_stream(text):
+    global last_input_text
     partial_text = ""
+    last_input_text = text  # Set the initial text
+
     for new_text in rag_chain.stream(text):
+        # Check if the text has changed
+        if text != last_input_text:
+            # If input has changed, break the loop to stop generation
+            break
         partial_text += new_text
         # Yield the updated conversation history
         yield partial_text
+
+    # Update last_input_text after processing
+    last_input_text = text
+
+
+# Function to update the last input text
+def update_input(text):
+    global last_input_text
+    last_input_text = text
+
 
 # Set up the Gradio interface
 title = "Real-time AI App with Groq API and LangChain"
@@ -77,6 +99,9 @@ demo = gr.Interface(
     allow_flagging="never",
     theme=gr.themes.Soft(),
 )
+
+# Register the input update function
+demo.input_event(update_input)
 
 # Launch the Gradio interface
 demo.queue()
