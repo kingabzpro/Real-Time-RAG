@@ -74,7 +74,7 @@ demo = gr.Interface(
     batch=True,
     max_batch_size=10000,
     concurrency_limit=12,
-    allow_flagging=False,
+    allow_flagging="never",
     theme=gr.themes.Soft(),
 )
 
