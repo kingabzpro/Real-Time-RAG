@@ -71,9 +71,13 @@ demo = gr.Interface(
     inputs="text",
     outputs="text",
     live=True,
+    batch=True,
+    max_batch_size=10000,
+    concurrency_limit=12,
     allow_flagging=False,
     theme=gr.themes.Soft(),
 )
 
 # Launch the Gradio interface
+demo.queue()
 demo.launch()
