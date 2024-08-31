@@ -1,5 +1,4 @@
 import os
-import threading
 
 import gradio as gr
 from langchain_chroma import Chroma
@@ -51,24 +50,10 @@ rag_chain = (
     | StrOutputParser()
 )
 
-# Global variable to store the current input text
-current_text = ""
-
-# Lock to synchronize access to current_text
-text_lock = threading.Lock()
-
-
 # Define the function to stream the RAG memory
 def rag_memory_stream(text):
-    global current_text
-    with text_lock:
-        current_text = text  # Update the current text input
     partial_text = ""
     for new_text in rag_chain.stream(text):
-        with text_lock:
-            # If the input text has changed, reset the generation
-            if text != current_text:
-                break
         partial_text += new_text
         # Yield the updated conversation history
         yield partial_text
@@ -91,6 +76,7 @@ demo = gr.Interface(
     live=True,
     allow_flagging="never",
     theme=gr.themes.Soft(),
+    stop_btn=True,
 )
 
 # Launch the Gradio interface
