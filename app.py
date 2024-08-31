@@ -1,12 +1,12 @@
 import os
-
 import gradio as gr
-from langchain_chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_core.prompts import PromptTemplate
+import threading
 
 # Load the API key from environment variables
 groq_api_key = os.getenv("Groq_API_Key")
@@ -50,11 +50,24 @@ rag_chain = (
     | StrOutputParser()
 )
 
+# Global variable to store the current input text
+current_text = ""
+
+# Lock to synchronize access to current_text
+text_lock = threading.Lock()
+
 
 # Define the function to stream the RAG memory
 def rag_memory_stream(text):
+    global current_text
+    with text_lock:
+        current_text = text  # Update the current text input
     partial_text = ""
     for new_text in rag_chain.stream(text):
+        with text_lock:
+            # If the input text has changed, reset the generation
+            if text != current_text:
+                return  # Exit the generator if new input is detected
         partial_text += new_text
         # Yield the updated conversation history
         yield partial_text
@@ -72,15 +85,11 @@ demo = gr.Interface(
     title=title,
     description=description,
     fn=rag_memory_stream,
-    inputs=gr.Textbox(
-        label="Enter your Star Wars question:",
-        trigger_mode="always_last",
-        default="Who is luke?",
-    ),
-    outputs=gr.Textbox(label="Awnser:", default="...", trigger_mode="auto"),
+    inputs="text",
+    outputs="text",
     live=True,
-    batch=True,
-    max_batch_size=10000,
+    batch=False,  # Disable batching to handle each input separately
+    max_batch_size=1,  # Set batch size to 1 to process inputs one by one
     concurrency_limit=12,
     allow_flagging="never",
     theme=gr.themes.Soft(),
