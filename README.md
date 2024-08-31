@@ -8,7 +8,7 @@ sdk_version: 4.42.0
 app_file: app.py
 pinned: false
 license: apache-2.0
-description: Real-time AI App with Groq API and LangChain
+short_description: Real-time AI App with Groq API and LangChain
 ---
 ## To run the App
 1. Generate the Groq API by going to the website: https://console.groq.com/keys.
@@ -17,4 +17,3 @@ description: Real-time AI App with Groq API and LangChain
 4. Run the Gradio app file `python app.py`
 
 ![image](https://github.com/user-attachments/assets/665d7df4-4fd3-47d4-91a1-a3cd52b31de7)
-
