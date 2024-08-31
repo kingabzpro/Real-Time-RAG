@@ -66,6 +66,7 @@ description = """
 
 demo = gr.Interface(
     title=title,
+    description=description,
     fn=rag_memory_stream,
     inputs="text",
     outputs="text",
