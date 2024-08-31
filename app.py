@@ -74,6 +74,7 @@ demo = gr.Interface(
     inputs="text",
     outputs="text",
     live=True,
+    batch=True,
     allow_flagging="never",
     theme=gr.themes.Soft(),
 )
