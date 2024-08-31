@@ -14,9 +14,8 @@ groq_api_key = os.getenv("Groq_API_Key")
 llm = ChatGroq(model="llama-3.1-70b-versatile", api_key=groq_api_key)
 
 # Initialize the embedding model
-embed_model = HuggingFaceEmbeddings(
-    model_name="mixedbread-ai/mxbai-embed-large-v1", model_kwargs={"device": "cpu"}
-)
+embed_model = HuggingFaceEmbeddings(model_name="mixedbread-ai/mxbai-embed-large-v1",
+                                    model_kwargs = {'device': 'cpu'})
 
 # Load the vector store from a local directory
 vectorstore = Chroma(
@@ -49,28 +48,13 @@ rag_chain = (
     | StrOutputParser()
 )
 
-
 # Define the function to stream the RAG memory
-def rag_memory_stream(text, change_tracker):
-    if change_tracker.get("changed", False):
-        return  # Stop the generation if input has changed
-
+def rag_memory_stream(text):
     partial_text = ""
     for new_text in rag_chain.stream(text):
-        if change_tracker.get("changed", False):
-            return  # Stop the generation if input has changed
         partial_text += new_text
-        yield partial_text  # Yield the updated conversation history
-
-
-def input_listener(text, change_tracker):
-    change_tracker["changed"] = True
-    change_tracker["changed"] = False
-    return text
-
-
-# Initialize a change tracker
-change_tracker = {"changed": False}
+        # Yield the updated conversation history
+        yield partial_text
 
 # Set up the Gradio interface
 title = "Real-time AI App with Groq API and LangChain"
@@ -80,21 +64,11 @@ description = """
 </center>
 """
 
-# Define input components with event listeners
-text_input = gr.Textbox(label="Enter your question", elem_id="question")
-text_input.change(
-    fn=input_listener,
-    inputs=[text_input],
-    outputs=[text_input],
-    change_tracker=change_tracker,
-)
-
-# Create the Gradio interface
 demo = gr.Interface(
     title=title,
     description=description,
-    fn=lambda text: rag_memory_stream(text, change_tracker),
-    inputs=text_input,
+    fn=rag_memory_stream,
+    inputs="text",
     outputs="text",
     live=True,
     batch=True,
@@ -102,6 +76,7 @@ demo = gr.Interface(
     concurrency_limit=12,
     allow_flagging="never",
     theme=gr.themes.Soft(),
+    trigger_mode="always_last",
 )
 
 # Launch the Gradio interface
