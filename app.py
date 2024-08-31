@@ -1,11 +1,12 @@
 import os
+
 import gradio as gr
+from langchain_chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
-from langchain_core.prompts import PromptTemplate
 
 # Load the API key from environment variables
 groq_api_key = os.getenv("Groq_API_Key")
@@ -14,8 +15,9 @@ groq_api_key = os.getenv("Groq_API_Key")
 llm = ChatGroq(model="llama-3.1-70b-versatile", api_key=groq_api_key)
 
 # Initialize the embedding model
-embed_model = HuggingFaceEmbeddings(model_name="mixedbread-ai/mxbai-embed-large-v1",
-                                    model_kwargs = {'device': 'cpu'})
+embed_model = HuggingFaceEmbeddings(
+    model_name="mixedbread-ai/mxbai-embed-large-v1", model_kwargs={"device": "cpu"}
+)
 
 # Load the vector store from a local directory
 vectorstore = Chroma(
@@ -48,6 +50,7 @@ rag_chain = (
     | StrOutputParser()
 )
 
+
 # Define the function to stream the RAG memory
 def rag_memory_stream(text):
     partial_text = ""
@@ -55,6 +58,7 @@ def rag_memory_stream(text):
         partial_text += new_text
         # Yield the updated conversation history
         yield partial_text
+
 
 # Set up the Gradio interface
 title = "Real-time AI App with Groq API and LangChain"
@@ -68,15 +72,18 @@ demo = gr.Interface(
     title=title,
     description=description,
     fn=rag_memory_stream,
-    inputs="text",
-    outputs="text",
+    inputs=gr.Textbox(
+        label="Enter your Star Wars question:",
+        trigger_mode="always_last",
+        default="Who is luke?",
+    ),
+    outputs=gr.Textbox(label="Awnser:", default="...", trigger_mode="auto"),
     live=True,
     batch=True,
     max_batch_size=10000,
     concurrency_limit=12,
     allow_flagging="never",
     theme=gr.themes.Soft(),
-    trigger_mode="always_last",
 )
 
 # Launch the Gradio interface
