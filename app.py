@@ -51,22 +51,26 @@ rag_chain = (
 
 
 # Define the function to stream the RAG memory
-def rag_memory_stream(text, last_input_text=""):
+def rag_memory_stream(text, change_tracker):
+    if change_tracker.get("changed", False):
+        return  # Stop the generation if input has changed
+
     partial_text = ""
-
-    # If the text has changed, reset the partial_text and regenerate
-    if text != last_input_text:
-        partial_text = ""  # Clear partial text when input changes
-
     for new_text in rag_chain.stream(text):
-        # If input changes, reset generation
-        if text != last_input_text:
-            break  # Stop current generation if text has changed
+        if change_tracker.get("changed", False):
+            return  # Stop the generation if input has changed
         partial_text += new_text
-        yield partial_text
+        yield partial_text  # Yield the updated conversation history
 
-    return partial_text, text  # Return updated text for Gradio state
 
+def input_listener(text, change_tracker):
+    change_tracker["changed"] = True
+    change_tracker["changed"] = False
+    return text
+
+
+# Initialize a change tracker
+change_tracker = {"changed": False}
 
 # Set up the Gradio interface
 title = "Real-time AI App with Groq API and LangChain"
@@ -76,18 +80,28 @@ description = """
 </center>
 """
 
+# Define input components with event listeners
+text_input = gr.Textbox(label="Enter your question", elem_id="question")
+text_input.change(
+    fn=input_listener,
+    inputs=[text_input],
+    outputs=[text_input],
+    change_tracker=change_tracker,
+)
+
+# Create the Gradio interface
 demo = gr.Interface(
-    fn=rag_memory_stream,
-    inputs=["text", "state"],
-    outputs=["text", "state"],
+    title=title,
+    description=description,
+    fn=lambda text: rag_memory_stream(text, change_tracker),
+    inputs=text_input,
+    outputs="text",
     live=True,
     batch=True,
     max_batch_size=10000,
     concurrency_limit=12,
     allow_flagging="never",
     theme=gr.themes.Soft(),
-    title=title,
-    description=description,
 )
 
 # Launch the Gradio interface
