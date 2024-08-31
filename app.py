@@ -76,7 +76,6 @@ demo = gr.Interface(
     live=True,
     allow_flagging="never",
     theme=gr.themes.Soft(),
-    stop_btn="Stop",
 )
 
 # Launch the Gradio interface
