@@ -58,6 +58,12 @@ def rag_memory_stream(text):
 
 # Set up the Gradio interface
 title = "Real-time AI App with Groq API and LangChain"
+description = """
+<center>
+<img src="https://huggingface.co/spaces/kingabzpro/Real-Time-RAG/resolve/main/Images/cover.png" alt="logo" width="550"/>
+</center>
+"""
+
 demo = gr.Interface(
     title=title,
     fn=rag_memory_stream,
@@ -68,6 +74,7 @@ demo = gr.Interface(
     max_batch_size=10000,
     concurrency_limit=16,
     allow_flagging=False,
+    theme=gr.themes.Soft(),
 )
 
 # Launch the Gradio interface
