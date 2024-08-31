@@ -49,33 +49,23 @@ rag_chain = (
     | StrOutputParser()
 )
 
-# Global variable to store the last input text
-last_input_text = ""
-
 
 # Define the function to stream the RAG memory
-def rag_memory_stream(text):
-    global last_input_text
+def rag_memory_stream(text, last_input_text=""):
     partial_text = ""
-    last_input_text = text  # Set the initial text
+
+    # If the text has changed, reset the partial_text and regenerate
+    if text != last_input_text:
+        partial_text = ""  # Clear partial text when input changes
 
     for new_text in rag_chain.stream(text):
-        # Check if the text has changed
+        # If input changes, reset generation
         if text != last_input_text:
-            # If input has changed, break the loop to stop generation
-            break
+            break  # Stop current generation if text has changed
         partial_text += new_text
-        # Yield the updated conversation history
         yield partial_text
 
-    # Update last_input_text after processing
-    last_input_text = text
-
-
-# Function to update the last input text
-def update_input(text):
-    global last_input_text
-    last_input_text = text
+    return partial_text, text  # Return updated text for Gradio state
 
 
 # Set up the Gradio interface
@@ -87,21 +77,18 @@ description = """
 """
 
 demo = gr.Interface(
-    title=title,
-    description=description,
     fn=rag_memory_stream,
-    inputs="text",
-    outputs="text",
+    inputs=["text", "state"],
+    outputs=["text", "state"],
     live=True,
     batch=True,
     max_batch_size=10000,
     concurrency_limit=12,
     allow_flagging="never",
     theme=gr.themes.Soft(),
+    title=title,
+    description=description,
 )
-
-# Register the input update function
-demo.input_event(update_input)
 
 # Launch the Gradio interface
 demo.queue()
