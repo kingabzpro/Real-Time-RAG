@@ -1,12 +1,13 @@
 import os
+import threading
+
 import gradio as gr
+from langchain_chroma import Chroma
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
-from langchain_core.prompts import PromptTemplate
-import threading
 
 # Load the API key from environment variables
 groq_api_key = os.getenv("Groq_API_Key")
@@ -67,7 +68,7 @@ def rag_memory_stream(text):
         with text_lock:
             # If the input text has changed, reset the generation
             if text != current_text:
-                return  # Exit the generator if new input is detected
+                break
         partial_text += new_text
         # Yield the updated conversation history
         yield partial_text
@@ -88,9 +89,6 @@ demo = gr.Interface(
     inputs="text",
     outputs="text",
     live=True,
-    batch=False,  # Disable batching to handle each input separately
-    max_batch_size=1,  # Set batch size to 1 to process inputs one by one
-    concurrency_limit=12,
     allow_flagging="never",
     theme=gr.themes.Soft(),
 )
